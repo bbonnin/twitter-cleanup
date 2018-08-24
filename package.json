@@ -1,0 +1,27 @@
+{
+  "name": "twitter-cleanup",
+  "version": "1.0.0",
+  "description": "Tool for cleaning your Twitter account",
+  "main": "twitter-cleanup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbonnin/twitter-cleanup.git"
+  },
+  "author": "Bruno Bonnin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bbonnin/twitter-cleanup/issues"
+  },
+  "homepage": "https://github.com/bbonnin/twitter-cleanup#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "moment": "^2.22.2",
+    "twitter": "^1.7.1"
+  },
+  "bin": {
+    "twitter-cleanup": "./twitter-cleanup.js"
+  }
+}
