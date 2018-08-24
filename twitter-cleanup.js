@@ -41,7 +41,6 @@ function processFriends(params) {
                         if (error) {
                             console.log(error);
                         }
-                        console.log(r);
                         //console.log(response);
                     });
                 }
